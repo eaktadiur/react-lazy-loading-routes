@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 // import Home from './Home/Home'
 // import Maps from './Maps/Maps'
-// import Blog from './Blog/Blog'
+// import Rajib from './People/Rajib'
 
 
 import NotFound from './NotFound/NotFound'
@@ -37,6 +37,7 @@ const People = asyncComponent(() =>
 )
 
 
+
 const history = createBrowserHistory();
 
 class App extends Component {
@@ -61,6 +62,12 @@ class App extends Component {
 
                                     <Link to="/maps">
                                         <span className="navbar-item">Maps</span>
+                                    </Link>
+                                </li>
+                                <li>
+
+                                    <Link to="/people">
+                                        <span className="navbar-item">People</span>
                                     </Link>
                                 </li>
                                 <li>
